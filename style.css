@@ -1,0 +1,60 @@
+@import "../bootstrap-4.5.0-dist/css/bootstrap.min.css";
+
+
+header{
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+
+nav{
+    border-bottom: 1px #e7e6e9bd solid;
+}
+
+img{
+    margin-top: 5%;
+    max-height: 200px;
+}
+
+dt,dd{
+    display: inline;
+}
+
+label{
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    margin-top: 100%;
+}
+
+.card{
+    padding-bottom: 20%;
+    height: 100% !important;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 0%;
+}
+
+.libro{
+    max-width: 150px !important;
+    max-height: 200px;
+}
+
+#submit{
+    color: black;
+    background-color: white;
+    border-color: rgb(195, 195, 195);
+}
+
+#active{
+    height: 100%;
+    color: #63666b;
+    background-color: #e7e6e9d0;
+    box-sizing: content-box;
+    padding: 4px 8px;
+}
